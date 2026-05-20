@@ -1,0 +1,28 @@
+body {
+    width: 100vw;
+    height: 200px;
+    margin: 0px;
+}
+
+.tabbar {
+    height: 50px;
+    width: calc(100vw - 25px);
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+    bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: var(--border);
+    background-color: var(--code-bg-opacity); 
+}
+
+a {
+    filter: drop-shadow(0 0 10px var(--accent-border));
+    font-size: 25px;
+}
