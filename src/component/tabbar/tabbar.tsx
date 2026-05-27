@@ -1,19 +1,20 @@
 import "./tabbar.css";
 import { FaHome, FaPlus, FaCog } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Tabbar() {
   return (
     <>
       <div className="tabbar">
-        <a href="/">
+        <Link to={"/"}>
           <FaHome />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to={"/"}>
           <FaPlus />
-        </a>
-        <a href="/">
+        </Link>
+        <Link to={"/"}>
           <FaCog />
-        </a>
+        </Link>
       </div>
     </>
   );
