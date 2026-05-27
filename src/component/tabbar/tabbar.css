@@ -13,6 +13,7 @@ body {
     position: fixed;
     bottom: 25px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     border-width: 2px;
@@ -25,4 +26,15 @@ body {
 a {
     filter: drop-shadow(0 0 10px var(--accent-border));
     font-size: 25px;
+    color: var(--accent);
 }
+
+button {
+    filter: drop-shadow(0 0 10px var(--accent-border));
+    font-size: 25px;
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--accent);
+}
+
