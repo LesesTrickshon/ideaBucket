@@ -6,7 +6,7 @@ body {
 
 .tabbar {
     height: 50px;
-    width: calc(100vw - 25px);
+    width: calc(200px - 25px);
     margin: 0;
     left: 50%;
     transform: translateX(-50%);
