@@ -1,0 +1,26 @@
+.main {
+    width: min(calc(100% - 20px), 350px);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    margin: 0 auto;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.timespan {
+    width: 50px;
+    background: var(--code-bg);
+    border: solid 2px var(--border);
+    padding: 5px;
+    border-radius: 10px;
+    font-family: var(--sans);
+}
+

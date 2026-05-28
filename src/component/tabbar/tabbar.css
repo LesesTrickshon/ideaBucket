@@ -21,6 +21,7 @@ body {
     border-radius: 25px;
     border-color: var(--border);
     background-color: var(--code-bg-opacity); 
+    backdrop-filter: blur(2px);
 }
 
 a {
@@ -29,7 +30,7 @@ a {
     color: var(--accent);
 }
 
-button {
+.tabbar-button {
     filter: drop-shadow(0 0 10px var(--accent-border));
     font-size: 25px;
     background: none;
@@ -37,4 +38,3 @@ button {
     padding: 0;
     color: var(--accent);
 }
-

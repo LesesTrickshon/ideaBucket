@@ -16,6 +16,7 @@
     border-color: var(--border);
     background-color: var(--code-bg-opacity);
     animation: fadeIn 0.2s linear;
+    backdrop-filter: blur(2px);
 }
 
 .list a {

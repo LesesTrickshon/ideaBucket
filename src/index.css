@@ -111,3 +111,32 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+input[type="text"], input[type="date"], textarea, input[type="password"] {
+  background: var(--code-bg);
+  border: solid 2px var(--border);
+  padding: 5px;
+  border-radius: 10px;
+  font-family: var(--sans);
+  resize: none;
+}
+
+input[type="color"] {
+  border: var(--border) 2px solid;
+  background: var(--code-bg);
+  border-radius: 10px;
+}
+
+.submit-button {
+  width: min(100px);
+  background: var(--accent-bg);
+  border: var(--accent-border) 2px solid;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 12px;
+  transition: all 0.1s;
+}
+.submit-button:active {
+  background: var(--accent);
+  border-color: var(--accent-border);
+}
