@@ -37,4 +37,5 @@ a {
     border: none;
     padding: 0;
     color: var(--accent);
+    margin: 0;
 }
