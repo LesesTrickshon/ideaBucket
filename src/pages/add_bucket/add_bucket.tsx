@@ -1,6 +1,7 @@
 import Tabbar from "../../component/tabbar/tabbar";
 import "./add_bucket.css";
 import { useState } from "react";
+import { motion } from "framer-motion";
 
 function Add_Bucket() {
   const [color, setColor] = useState("#c084fc");
@@ -25,6 +26,7 @@ function Add_Bucket() {
           <input type="checkbox" />
           <p>Display and Pinned</p>
         </div>
+
         <hr />
         <h2>Shared Bucket</h2>
         <div className="horizontal">
@@ -38,8 +40,11 @@ function Add_Bucket() {
           <p>Enable Password</p>
         </div>
         <input type="password" placeholder="Password..." />
+
         <hr />
-        <button className="submit-button">Add</button>
+        <motion.button className="submit-button" whileTap={{ scale: 0.9 }}>
+          Add
+        </motion.button>
       </section>
       <div style={{ height: "100px" }}></div>
     </>

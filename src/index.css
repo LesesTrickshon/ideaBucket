@@ -134,7 +134,7 @@ input[type="color"] {
   padding: 10px;
   margin: 0 auto;
   border-radius: 12px;
-  transition: all 0.1s;
+  transition: all 0.2s;
 }
 .submit-button:active {
   background: var(--accent);

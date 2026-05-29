@@ -2,8 +2,7 @@
     height: 75px;
     width: calc(200px - 25px);
     margin: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    /*transform: translateX(-50%);*/
     position: fixed;
     bottom: 90px;
     display: flex;
@@ -15,7 +14,7 @@
     border-radius: 25px;
     border-color: var(--border);
     background-color: var(--code-bg-opacity);
-    animation: fadeIn 0.2s linear;
+    /*animation: fadeIn 0.2s linear;*/
     backdrop-filter: blur(2px);
 }
 

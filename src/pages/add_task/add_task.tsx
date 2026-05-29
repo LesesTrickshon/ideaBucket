@@ -1,5 +1,6 @@
 import "./add_task.css";
 import Tabbar from "../../component/tabbar/tabbar";
+import { motion } from "framer-motion";
 
 function Add_Task() {
   return (
@@ -15,9 +16,11 @@ function Add_Task() {
           id=""
           rows={5}
         ></textarea>
+
         <hr />
         <h2>Bucket Options</h2>
         <input type="text" placeholder=" Bucket Name..." />
+
         <hr />
         <h2>Expiration Options</h2>
         <div className="horizontal">
@@ -25,6 +28,7 @@ function Add_Task() {
           <p style={{ fontSize: "12px" }}>Add expiration date</p>
         </div>
         <input type="date" />
+
         <hr />
         <h2>Time Span</h2>
         <div className="horizontal" style={{ margin: "0 auto" }}>
@@ -32,9 +36,13 @@ function Add_Task() {
           <p>:</p>
           <input type="number" className="timespan" placeholder="min" />
         </div>
+
         <hr />
+        <motion.button className="submit-button" whileTap={{ scale: 0.9 }}>
+          Add
+        </motion.button>
       </section>
-      <button className="submit-button">Add</button>
+
       <div style={{ height: "100px" }}></div>
     </>
   );
